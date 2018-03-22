@@ -1,0 +1,293 @@
+﻿/* 去掉所以元素的内外边距 */
+*{
+	padding: 0px;
+	margin: 0px;
+	cursor: default;
+}
+body{
+	padding: 0px;
+	margin: 0px;
+}
+/*去除a标签所有默认样式*/
+a,a:active,a:link,a:visited,a:focus,a:hover {text-decoration:none;}
+
+/*i 和 em 不再有样式效果*/
+i,em{font-style: normal;}
+
+/*去除ul，li的默认样式*/
+ul,li{list-style-type: none;padding: 0;}
+
+/*去除img标签的默认边框*/
+img{border:none;border:0;}
+
+/*去除表格 及列表的默认边框*/
+table,tr,td{border:none;border:0;}
+
+/*去除input  和  textarea的默认样式   设置不可改变尺寸*/
+input,textarea{border:none;resize:none;outline: none;border:0;}
+html,body{height:100%;overflow:hidden;}
+
+.content{
+	width: 100%;
+	min-height: 900px;
+	background: url('../images/bg.png');
+	padding: 12px;
+    overflow: hidden;
+     *zoom: 1;
+}
+.lf{
+	float: left;
+}
+.rf{
+	float: right;
+}
+.zyjfbmb{
+	height: 35px;
+	background: url('../images/title.png') no-repeat 0px 0px;
+	background-size: 332px 33px;
+	border: 1px solid #5190bf;
+	margin-right: 40px;
+}
+.zyjsltj{
+	height: 35px;
+	width: 100%;
+	border: 1px solid #5190bf;
+	border-left: 0px;
+	margin-left:410px;
+	margin-right: 35px;
+}
+.zuo{
+	
+	width: 286px; position: absolute; right: 12px; top: 12px;
+	height: 100%;
+}
+.you{
+	height: 100%;
+	box-sizing: border-box ;
+	margin-right: 320px;
+}
+.hccz{
+	height: 35px;
+    width: 35px;
+    position: absolute;
+    background: url(../images/icon-32_32.png) no-repeat 2px 2px;
+    background-size: 30px 30px;
+    border: 1px solid #f6ea00;
+    right: 305px;
+    top: 12px;
+    cursor:pointer;
+}
+.yuzc{
+	width: 200px;
+	height: 100px;
+	border: 1px solid #5190bf;
+	margin-right: 8px;
+	margin-top: 8px;
+}
+.ldpm{
+	height: 100px;
+	border: 1px solid #5190bf;
+	right: 305px; top: 12px;
+	margin-top: 8px;
+	margin-left: 420px;
+}
+#main{
+	width: 100%;
+	border: 1px solid #5190bf;
+	margin-top: 8px;
+	bottom:0px;
+	min-height:440px; 
+	overflow: hidden;
+} 
+.zuo_bt{
+	width: 286px;
+	height: 145px;
+	margin-bottom: 8px;
+	border: 1px solid #5190bf;
+}
+.bj{
+	background: url('../images/corner-1.png') no-repeat 2px 2px,url('../images/corner-2.png') no-repeat 99% 2px,url('../images/corner-3.png') no-repeat 2px 99%,url('../images/corner_4.png') no-repeat 99% 99%;
+	background-size: 20px 20px;
+}
+.tj_con{
+	width: 170px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 10px;
+    padding-right: 20px;
+    color: #ffffff;
+    background: url(../images/left-03.png) no-repeat 75px 5px,url(../images/right.png) no-repeat 145px 5px;
+    background-size: 10px 25px;
+}
+.tj_con .nums{
+	display: block;
+    color: #2793ff;
+    font-size: 15px;
+    width: 100px;
+    text-align: center;
+    float: right;
+}
+.yu_con{
+	width: 170px;
+    height: 30px;
+    line-height: 35px;
+    margin-top: 10px;
+    font-size: 10px;
+    padding-right: 8px;
+    color: #ffffff;
+    background: url(../images/left-03.png) no-repeat 90px 5px,url(../images/right.png) no-repeat 145px 5px;
+    background-size: 10px 25px;
+}
+.yu_con .nums{
+	display: block;
+    color: #2793ff;
+    font-size: 15px;
+    width: 90px;
+    text-align: center;
+    float: right;
+}
+.yu_con .numss{
+	display: block;
+    color: #f6ea00;
+    font-size: 15px;
+    width: 98px;
+    text-align: center;
+    float: right;
+}
+.ldpm p{
+	display: block;
+    margin-top: 5px;
+    width: 100%;
+    color: #ffffff;
+    font-size: 10px;
+    line-height: 6px;
+    text-align: center;
+    margin-top: 8px;
+}
+.ldpm ul{
+	font-size: 10px;
+	color: #ffffff;
+	margin: 0px;
+	padding: 0px;
+}
+.ldpm ul li{
+	height: 20px;
+
+}
+.ldpm ul li span{
+	display: block;
+	font-size: 10px;
+	color: #ffffff;
+	margin: 0px;
+	float: left;
+	overflow: hidden;
+	padding: 0px;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	height: 20px;
+	line-height: 20px;
+}
+
+.zuo_bt span{
+	display: block;
+    margin-top: 5px;
+    width: 100%;
+    color: #ffffff;
+    background: url(../images/arrow.png) no-repeat 0px 5px;
+    background-size: 286px 10px;
+    font-size: 10px;
+    line-height: 18px;
+    text-align: center;
+    height: 20px;
+}
+.yptj{
+	width: 265px;
+    height: 115px;
+    margin-left: 10px;
+    background: red;
+}
+
+.zuo1{
+	
+	width: 286px; position: absolute; right: 12px; top: 12px;
+	height:100%;
+}
+.zclb{
+	border: 1px solid #5190bf;
+	min-height: 610px;
+}
+.zclb p{
+	display: block;
+    margin-top: 5px;
+    width: 100%;
+    color: #ffffff;
+    background: url(../images/arrow.png) no-repeat 0px 5px;
+    background-size: 286px 10px;
+    font-size: 10px;
+    line-height: 18px;
+    text-align: center;
+    height: 20px;
+}
+
+.zclb ul{
+
+	color: #ffffff;
+	
+	font-size:12px; 
+	width: 240px;
+
+	min-height: 500px;
+	cursor:pointer;
+    width: 106%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-right: 35px;
+}
+
+.zclb button{
+	border: 1px solid #5190bf;
+	background: none;
+	color: #ffffff;
+	margin-left:9%;
+	width: 100px;
+	height: 30px;
+	margin-top: 10px;
+}
+.zclb ul li{
+	height: 30px;
+	padding-left: 10px;
+	line-height: 25px;
+	/* background: #2793ff; */
+	margin-bottom: 2px;
+	margin-top: 2px;
+}
+.zclb ul li span{
+	display: block;
+	float: left;
+	width: 45px;
+	text-align: center;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+}
+
+.zclb ul li:hover
+{ 
+	background-color:#2793ff;
+}
+.ulc{
+	color: #ffffff;
+	border: 1px solid #5190bf;
+	font-size:12px; 
+	margin-left: 10px;
+	min-height: 500px;
+	cursor:pointer;
+    width: 92%;
+    overflow: hidden;
+
+}
+
+
+
+
+
